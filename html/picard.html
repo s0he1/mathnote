@@ -1,33 +1,15 @@
-<html>
-<head>
- 	<title>ピカールの逐次近似法</title>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 
-	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+</script>
 
-	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } }
-    });
-	</script>
+<meta charset="UTF-8" />
 
-	<meta charset="UTF-8" />
-	<meta http-equiv+="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-
-<body>
-<div id="frame">
-  <div id="header">
-    <center><h1>ピカールの逐次近似法</h1></center>
-  </div>
-
-  <div id="tag">
-
-		<iframe src="../tag/tag.html" name="tag" scrolling="no" width="150px" marginwidth="0" marginheight="0" frameborder="0"></iframe>
-
-  </div>
-    
-  <div id="main">
+<div id="article">
 微分方程式の初期値問題を解析的に解く方法である。</br>
 以下のように、微分方程式を積分方程式に書き換える。
 \begin{align}
@@ -46,20 +28,10 @@
 として\(x_1(t), x_2(t), ..., x_n(t)\)を順に求める。</br>
 こうして得た関数\(\{x_n\}\)が解の近似列を与える。</br>
 この開放の注意点は以下の４つである。</br>
-<table>
-  <tr><td>1) \(x_n\)は収束するのか</td></tr>
-  <tr><td>2) 収束するとして、\(x=\displaystyle \lim_{n \to \infty} x_n\)は微分可能か</td</tr>
-	<tr><td>3) \(\displaystyle \lim_{n \to \infty}\int_{t_0}^t f(x_n, s)ds = \int_{t_0}^t f(x,s)ds\)とできるか</td</tr>
-	<tr><td>4) どんな\(x_0\)から始めても同じ関数に収束するか</td></tr>
-</table>
-  </div>
-	<div id="homelink">
-		<iframe src="../homelink/homelink.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	</div>
-	<div id="footer" align="right">
-		<iframe src="../footer/footer.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
-	</div>
+	<table>
+ 	 <tr><td>1) \(x_n\)は収束するのか</td></tr>
+ 	 <tr><td>2) 収束するとして、\(x=\displaystyle \lim_{n \to \infty} x_n\)は微分可能か</td</tr>
+		<tr><td>3) \(\displaystyle \lim_{n \to \infty}\int_{t_0}^t f(x_n, s)ds = \int_{t_0}^t f(x,s)ds\)とできるか</td</tr>
+		<tr><td>4) どんな\(x_0\)から始めても同じ関数に収束するか</td></tr>
+	</table>
 </div>
-  
-</body>
-</html>
