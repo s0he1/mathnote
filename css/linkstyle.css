@@ -1,0 +1,15 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#link{
+//	float: left;
+	width: 150px;
+//	border-left: 1px solid #ff9900;
+//	border-right: 1px solid #ff9900;
+	word-break: normal;
+//	padding: 2px;
+//	margin: 5px 5px 5px 10px;
+	font-size: 14px;
+

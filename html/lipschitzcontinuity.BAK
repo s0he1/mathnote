@@ -1,0 +1,47 @@
+<html>
+<head>
+ 	<title>Lipschitz continuity</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+	</script>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv+="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<div id="frame">
+	<div id="header">
+	  <center><h1>Lipschitz continuity - リプシッツ連続性 -</h1></center>
+ 	</div>
+	<div id="tag">
+
+		<iframe src="./html/tag.html" name="tag" scrolling="no" width="150px" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+	</div>
+	<div id="main">
+定義:</br>
+区間\(I(\subset\mathbb{R})\)上で\(y+f(x)\)がリプシッツ連続であるとは、任意の\(x_1, x_2\)に対し、
+\begin{align}
+	| f(x_1) - f(x_2) | < K|x_1 - x_2  |
+\end{align}
+となる\(K\)が存在することをいう。</br>
+これは\(y=f(x_1)\)で交わる傾き\(\pm K\)の直線で囲まれる範囲に、\(f(x_2)\)が入っているということである。
+</br>
+
+	</div>
+	<div id="homelink">
+		<iframe src="./html/homelink.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	</div>
+	<div id="footer" align="right">
+		<iframe src="./html/footer.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	</div>
+</div>
+</body>
+</html>

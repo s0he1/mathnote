@@ -1,0 +1,38 @@
+<html>
+<head>
+ 	<title>Semiconductor</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+    });
+	</script>
+
+	<meta charset="UTF-8" />
+	<meta http-equiv+="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<div id="frame">
+	<div id="header">
+  	<center><h1>Semiconductor - 半導体 -</h1></center>
+	</div>
+	<div id="tag">
+
+		<iframe src="./html/tag.html" name="tag" scrolling="no" width="150px" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+
+	</div>
+	<div id="main">
+	</div>
+	<div id="homelink">
+		<iframe src="./html/homelink.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	</div>
+	<div id="footer" align="right">
+		<iframe src="./html/footer.html" name="tag" scrolling="no" width="800px" height="20px"  marginwidth="0" marginheight="0" frameborder="0"></iframe>
+	</div>
+</div>
+</body>
+</html>
